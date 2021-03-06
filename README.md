@@ -6,14 +6,14 @@ MarianoTV opens random videos in a determined folder (all subfolders included) w
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of[VLC](https://www.videolan.org/vlc/index.es.html).
+* You have installed the latest version of [VLC](https://www.videolan.org/vlc/index.es.html).
 * Python 3 or higher.
 
 ## Installing MarianoTV
 
 To install MarianoTV, follow these steps:
 
-* Download MarianoTV.py.
+* Download MarianoTV.py
 * Move it to the folder where you have all your videos (remember it includes all subfolders).
 * By default, in MarianoTV.py, VLC.exe path is set to C:\Program Files (x86)\VideoLAN\VLC\vlc.exe". You may have to edit that line:
 ```python
@@ -22,7 +22,7 @@ To install MarianoTV, follow these steps:
 
 ## Using MarianoTV
 
-* Just double click on MarianoTV.py. It will open a console window that will start playing random videos.
+* Just double click on MarianoTV.py (I recommend creating a desktop shortcut). It will open a console window that will start playing random videos.
 * To correctly close this program, Alt+Tab to console and press Enter (if closed other way it may corrupt the register).
 
 ### Other functions
