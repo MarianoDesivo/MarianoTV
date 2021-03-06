@@ -1,6 +1,6 @@
 # MarianoTV
 
-MarianoTV opens random videos in a determined folder (all subfolders included) with [VLC](https://www.videolan.org/vlc/index.es.html). Creates a registry to store watched videos not to repeat them
+MarianoTV opens random videos in a determined folder (all subfolders included) with [VLC](https://www.videolan.org/vlc/index.es.html). Creates a registry to store watched videos not to repeat them.
 
 ## Prerequisites
 
