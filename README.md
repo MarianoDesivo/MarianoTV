@@ -17,25 +17,25 @@ To install MarianoTV, follow these steps:
 * Move it to the folder where you have all your videos (remember it includes all subfolders).
 * By default, in MarianoTV.py, VLC.exe path is set to C:\Program Files (x86)\VideoLAN\VLC\vlc.exe". You may have to edit that line:
 ```python
-  vlc = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" #Path of VLC.exe
+    vlc = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" #Path of VLC.exe
 ```
 
 ## Using MarianoTV
 
 * Just double click on MarianoTV.py (I recommend creating a desktop shortcut). It will open a console window that will start playing random videos.
-* To correctly close this program, Alt+Tab to console and press Enter (if closed other way it may corrupt the register).
+* To correctly close this program, Alt+Tab to console and press Enter (if closed other way it may corrupt the registry).
 
 ### Other functions
 
 * There is a watched videos counter. If it reaches 300 it will reset the watched list.
 ```python
-  if contador > 300: #If we have watched more than 300 videos 
-                                        f = open('CapitulosVistos.txt', 'w')    #Reset the list to start again
+    if contador > 300: #If we have watched more than 300 videos 
+      f = open('CapitulosVistos.txt', 'w')    #Reset the list to start again
 
 ```
 * There is a 10% chance you get a repeated video
 ```python
-  if random.randint(1,10) == 1: #There is a 10% chance to watch a video you have already seen
+    if random.randint(1,10) == 1: #There is a 10% chance to watch a video you have already seen
 ```
 
 ## Contact
